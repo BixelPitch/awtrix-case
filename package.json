@@ -1,0 +1,36 @@
+{
+  "name": "awtrix-case",
+  "version": "1.0.0",
+  "description": "A bunch of svg files meant to be used in laserweb for making your own wooden chassis for awtrix.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BixelPitch/awtrix-case.git"
+  },
+  "keywords": [
+    "awtrix",
+    "matrix",
+    "laserweb",
+    "make",
+    "wood",
+    "lasercutting"
+  ],
+  "author": "BixelPitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BixelPitch/awtrix-case/issues"
+  },
+  "homepage": "https://github.com/BixelPitch/awtrix-case#readme",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16",
+    "svgdom": "0.0.21"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
