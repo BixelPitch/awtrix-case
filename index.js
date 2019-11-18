@@ -19,11 +19,11 @@ const CASE_WIDTH = 350;
 const CASE_HEIGHT = 110;
 const CASE_ROUNDNESS = 10;
 
-const LED_CARVING = 9.5;
-const LED_MARGIN = 0.5;
+const LED_CARVING = 9;
+const LED_MARGIN = 1;
 
 const HOLE_MARGIN = 10;
-const HOLE_RADIUS = 2.5;
+const HOLE_RADIUS = 3;
 
 // ++++++++++++++++++++++
 // + Parts              +
