@@ -12,18 +12,18 @@ registerWindow(window, document);
 // + Configurations     +
 // ++++++++++++++++++++++
 
-// 1mm = 1
-const STROKE = 0.5;
+const scale = 3.7795;
+const STROKE = 0.5 * scale;
 
-const CASE_WIDTH = 350;
-const CASE_HEIGHT = 110;
-const CASE_ROUNDNESS = 10;
+const CASE_WIDTH = 350 * scale;
+const CASE_HEIGHT = 110 * scale;
+const CASE_ROUNDNESS = 10 * scale;
 
-const LED_CARVING = 9;
-const LED_MARGIN = 1;
+const LED_CARVING = 9 * scale;
+const LED_MARGIN = 1 * scale;
 
-const HOLE_MARGIN = 10;
-const HOLE_RADIUS = 3;
+const HOLE_MARGIN = 10 * scale;
+const HOLE_RADIUS = 3 * scale;
 
 // ++++++++++++++++++++++
 // + Parts              +
